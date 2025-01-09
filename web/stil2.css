@@ -1,0 +1,6 @@
+body{
+    background: url(resimler/besiktas.jpg)left top
+     no-repeat,url(resimler/beyoglu.jpg) right bottom
+      no-repeat,linear-gradient(to right, red,navy,green,orange,pink,aqua);
+   
+}  

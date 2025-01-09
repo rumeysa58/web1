@@ -1,0 +1,11 @@
+body{background-color: aqua;/*arkaplan rengi*/
+background-image: url(resimler/besiktas.jpg);/*arkaplan resim ekleme*/
+background-repeat: no-repeat;/*tekrarlama
+repeat-x yatayda tekrarlama
+repeat-y dikeyde tekrarla
+repeat yatay ve dikeyde tekrarlama varsayılan değerdir
+*/
+background-position: 50vw 50vh;
+
+
+}

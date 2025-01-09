@@ -1,0 +1,60 @@
+body{ background-color: antiquewhite;}
+.üst_tasarım{
+    display: flex;
+}
+
+.orta_tasarım img{
+    border-radius: 30px;
+    width: 100%;
+    height: 400px;
+}
+.orta_button{
+    display: flex;
+    justify-content: space-between;
+}
+.orta_button input{
+    border-radius: 10px;
+    background-color: orange;
+    border: none;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    width: 100px;
+    height: 40px;
+}
+.orta_menu{
+    background-color: white ;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+.orta_menu a{
+    text-align: center;
+    color:burlywood;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.tanitim{
+    border-radius: 20px;
+    background-color: white;
+    width: 99%;
+    height: 120px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.alt_tasarım{
+    color: white;
+    margin-top: 20px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: rgb(40, 63, 45);
+    width: 100%;
+    height: 60px;
+}
+.üst_img{
+    height: 90px;
+}
+ .galeri{ position: relative; width:100%; height: 450px; margin-bottom:10px; }
+ .galeri img{ width:100%; height: 450px; position: absolute; border-radius: 20px; box-shadow: 2px,2px,2px,rgb(0, 0, 0);}

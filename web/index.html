@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+function resmiGoster1(){
+ document.getElementById("resim1").style.zIndex=2;
+ 
+ document.getElementById("resim2").style.zIndex=1;
+ document.getElementById("resim3").style.zIndex=1;
+}
+function resmiGoster2(){
+ document.getElementById("resim1").style.zIndex=1;
+ document.getElementById("resim2").style.zIndex=2;
+ document.getElementById("resim3").style.zIndex=1;
+
+
+}
+function resmiGoster3(){
+ document.getElementById("resim1").style.zIndex=1;
+ document.getElementById("resim2").style.zIndex=1;
+ document.getElementById("resim3").style.zIndex=2;
+}
+</script>
+<body>
+    <div class="üst_tasarım">
+        <img class="üst_img" src="resimler/hamburgerler/pngtree-3d-hamburger-line-icon-logo-vector-png-image_14714738.png" alt="">
+        <h1>HAMBURGER</h1>
+    </div>
+    <div class="galeri">
+        <img src="Resimler/hamburgerler/hamburger-01.jpg" id="resim1">
+        <img src="Resimler/hamburgerler/hamburger-02.jpg" id="resim2">
+        <img src="Resimler/hamburgerler/hamburger-03.jpg" id="resim3">
+    </div>
+    <div class="orta_button">
+        <input type="button" onmousemove="resmiGoster1()" value="Menü-1">
+        <input type="button" onmousemove="resmiGoster2()" value="Menü-2">
+        <input type="button" onmousemove="resmiGoster3()" value="Menü-3">
+    </div>
+    <div class="orta_menu">
+        <a href="">Ana Sayfa</a>
+        <a href="">Ürünler</a>
+        <a href="">İletişim</a>
+    </div>
+    <div class="tanitim">
+        <h1>Tanıtım Filmleri</h1>
+    </div>
+    <div class="alt_tasarım">
+        <p>HAMBURGER</p>
+    </div>
+    <script>
+
+
+   
+        function hesapla() {
+            // Kullanıcıdan yarıçapı al
+            var yaricap = parseFloat(document.getElementById("yaricap").value);
+            
+            // Alanı hesapla (Geçersiz değerle işlem yapıldığında NaN dönecektir)
+            var alan = Math.PI * Math.pow(yaricap, 2);
+
+            // Alanı ekrana yazdır, geçersiz bir giriş varsa "NaN" dönecektir
+            document.getElementById("sonuc").innerText = isNaN(alan) ? "Lütfen geçerli bir yarıçap girin." : "Alan: " + alan.toFixed(2) + " birim².";
+        }
+    </script>
+</head>
+<body>
+    <h1>Dairenin Alanını Hesaplama</h1>
+    <label for="yaricap">Yarıçap (birim):</label>
+    <input type="number" id="yaricap" step="0.1" min="0">
+    <button onclick="hesapla()">Hesapla</button>
+    <p id="sonuc"></p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+body{background: orange;}
+div{width: 100vw;
+    height: 10vh;
+    background: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10vw;
+
+}
+#kutu2{background: yellow;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+
+color: blueviolet /* yazı rengi */;
+font-variant: all-small-caps;/*yazılan yazıyı büyük harfe çevirir*/
+font-style: italic;
+text-decoration: underline;/* altı çizgili*/
+text-decoration: overline;/*üstü çizgili*/
+text-decoration: underline overline;/* hem altı çizgili hem üstü çizgili*/
+text-align: center;/* yazıyı ortalar*/
+font-size: 2vw /* yazı boyutu*/;
+/*em: 1px/16
+font-size:16em;
+font-size:10pt
+font-size:10px
+*/
+}
+#kutu3{/*text aligm: right; yazıyı sağa yaslar*/
+text-align: justify;/* yazıyı iki yana yaslar*/
+
+}
